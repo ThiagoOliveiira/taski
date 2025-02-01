@@ -1,7 +1,7 @@
 # 📌 MVVM Clean Architecture Flutter - To-Do App
 
 ## 📖 Sobre o Projeto
-Este é um aplicativo de **To-Do List** desenvolvido em **Flutter**, utilizando a arquitetura **MVVM + Clean Architecture** para garantir organização, escalabilidade e separação de responsabilidades. O app utiliza **Hive** como banco de dados local para armazenar as tarefas.
+Este é um aplicativo de **Taski** desenvolvido em **Flutter**, utilizando a arquitetura **MVVM + Clean Architecture** para garantir organização, escalabilidade e separação de responsabilidades. O app utiliza **Hive** como banco de dados local para armazenar as tarefas.
 
 ## 🚀 Como Executar o Projeto
 
@@ -14,8 +14,8 @@ Antes de executar o projeto, certifique-se de ter:
 ### 🔹 Passos para rodar
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-repo/mvvm_clean_todo.git
-   cd mvvm_clean_todo
+   git clone https://github.com/ThiagoOliveiira/taski.git
+   cd taski
    ```
 2. Instale as dependências:
    ```sh
@@ -86,16 +86,6 @@ lib/
 - **Cubit (Bloc)**: Gerenciamento de estado
 - **GoRouter**: Navegação
 - **Build Runner**: Geração de código para Hive
-
-## 🤝 Contribuição
-1. Faça um **fork** do projeto.
-2. Crie uma **branch** para a sua feature (`git checkout -b minha-feature`).
-3. Faça o **commit** das suas alterações (`git commit -m 'Adiciona nova funcionalidade'`).
-4. Faça o **push** para a branch (`git push origin minha-feature`).
-5. Abra um **Pull Request**.
-
-## 📜 Licença
-Este projeto está licenciado sob a **MIT License**.
 
 ---
 🚀 **Agora é só rodar o projeto e começar a usar!** 🚀
