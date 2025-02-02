@@ -6,12 +6,10 @@ Este é um aplicativo de lista de tarefas chamado **Taski** desenvolvido em **Fl
 
 ### 🔹 Screenshot
 
-![Descrição da Imagem](lib/assets/screenshots/todo.png)
-![Descrição da Imagem](lib/assets/screenshots/todos.png)
-![Descrição da Imagem](lib/assets/screenshots/add_task.png)
-![Descrição da Imagem](lib/assets/screenshots/search.png)
-![Descrição da Imagem](lib/assets/screenshots/notfound.png)
-![Descrição da Imagem](lib/assets/screenshots/done.png)
+![Descrição da Imagem](lib/assets/screenshots/todo.png)![Descrição da Imagem](lib/assets/screenshots/todos.png)![Descrição da Imagem](lib/assets/screenshots/add_task.png)
+![Descrição da Imagem](lib/assets/screenshots/search.png)![Descrição da Imagem](lib/assets/screenshots/notfound.png)![Descrição da Imagem](lib/assets/screenshots/done.png)
+
+
 
 ## 🚀 Como Executar o Projeto
 
