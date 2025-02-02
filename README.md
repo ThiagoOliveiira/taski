@@ -1,7 +1,7 @@
 # 📌 MVVM Clean Architecture Flutter - Taski App
 
 ## 📖 Sobre o Projeto
-Este é um aplicativo de **Taski** desenvolvido em **Flutter**, utilizando a arquitetura **MVVM + Clean Architecture** para garantir organização, escalabilidade e separação de responsabilidades. O app utiliza **Hive** como banco de dados local para armazenar as tarefas.
+Este é um aplicativo de lista de tarefas chamado **Taski** desenvolvido em **Flutter**, utilizando a arquitetura **MVVM + Clean Architecture** para garantir organização, escalabilidade e separação de responsabilidades. O app utiliza **Hive** como banco de dados local para armazenar as tarefas.
 
 ## 🚀 Como Executar o Projeto
 
