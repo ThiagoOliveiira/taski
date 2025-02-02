@@ -5,14 +5,16 @@ Este é um aplicativo de lista de tarefas chamado **Taski** desenvolvido em **Fl
 
 
 ### 🔹 Screenshot
-
-<img src = "lib/assets/screenshots/todo.png" alt="Descrição da Images" width = "200" />
-<img src = "lib/assets/screenshots/todos.png" alt="Descrição da Images" width = "200" />
-<img src = "lib/assets/screenshots/add_task.png" alt="Descrição da Images" width = "200" />
-<img src = "lib/assets/screenshots/search.png" alt="Descrição da Images" width = "200" />
-<img src = "lib/assets/screenshots/notfound.png" alt="Descrição da Images" width = "200" />
-<img src = "lib/assets/screenshots/done.png" alt="Descrição da Images" width = "200" />
-
+<p align="center">
+   <img src = "lib/assets/screenshots/todo.png" alt="Descrição da Images" width = "200" />
+   <img src = "lib/assets/screenshots/todos.png" alt="Descrição da Images" width = "200" />
+   <img src = "lib/assets/screenshots/add_task.png" alt="Descrição da Images" width = "200" />
+</p>
+<p align="center">
+   <img src = "lib/assets/screenshots/search.png" alt="Descrição da Images" width = "200" />
+   <img src = "lib/assets/screenshots/notfound.png" alt="Descrição da Images" width = "200" />
+   <img src = "lib/assets/screenshots/done.png" alt="Descrição da Images" width = "200" />
+</p>
 
 
 ## 🚀 Como Executar o Projeto
