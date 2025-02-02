@@ -23,7 +23,7 @@ Antes de executar o projeto, certifique-se de ter:
    ```
 3. Gere os adaptadores do Hive:
    ```sh
-   flutter pub run build_runner build --delete-conflicting-outputs
+   dart run build_runner build --delete-conflicting-outputs
    ```
 4. Execute o aplicativo:
    ```sh
