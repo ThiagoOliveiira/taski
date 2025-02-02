@@ -23,7 +23,7 @@ AppBar defaultAppBar(BuildContext context) {
           children: [
             const Text('John', style: TextStyle(color: AppColors.slatePurple, fontWeight: FontWeight.w500, fontSize: 18)),
             SizedBox(width: MediaQuery.sizeOf(context).width * 0.03),
-            const CircleAvatar(child: Icon(Icons.person)),
+            const CircleAvatar(backgroundImage: AssetImage('lib/assets/images/avatar.jpg')),
           ],
         )
       ],

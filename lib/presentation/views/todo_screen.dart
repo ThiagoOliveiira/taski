@@ -40,6 +40,7 @@ class TodoScreen extends StatelessWidget {
                                   ? Expanded(
                                       child: ListView.builder(
                                         itemCount: state.menuIndex == 0 ? todoCubit.pendingTodos?.length : todoCubit.completedTodos?.length,
+                                        padding: EdgeInsets.zero,
                                         itemBuilder: (context, index) {
                                           TodoEntity? todo = state.menuIndex == 0 ? todoCubit.pendingTodos![index] : todoCubit.completedTodos![index];
                                           return Padding(
