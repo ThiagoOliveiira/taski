@@ -1,20 +1,27 @@
+// ignore_for_file: overridden_fields
+
 import 'package:hive/hive.dart';
 import 'package:taski/domain/domain.dart';
 
 part 'todo_model.g.dart';
 
 @HiveType(typeId: 0)
+// ignore: must_be_immutable
 class TodoModel extends TodoEntity {
   @HiveField(0)
+  // ignore: annotate_overrides
   int? id;
 
   @HiveField(1)
+  // ignore: annotate_overrides
   final String title;
 
   @HiveField(2)
+  // ignore: annotate_overrides
   final String description;
 
   @HiveField(3)
+  // ignore: annotate_overrides
   final bool? isCompleted;
 
   TodoModel({

@@ -30,8 +30,8 @@ class _SearchScreenState extends State<SearchScreen> {
           controller: searchController,
           decoration: InputDecoration(
             hintText: 'Search task',
-            enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: BorderSide(color: AppColors.blue)),
-            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: BorderSide(color: AppColors.blue)),
+            enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: const BorderSide(color: AppColors.blue)),
+            focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12), borderSide: const BorderSide(color: AppColors.blue)),
             fillColor: AppColors.paleWhite,
             filled: true,
             prefixIcon: const Icon(Icons.search, color: AppColors.blue),

@@ -20,7 +20,7 @@ class TodoModelAdapter extends TypeAdapter<TodoModel> {
       id: fields[0] as int?,
       title: fields[1] as String,
       description: fields[2] as String,
-      isCompleted: fields[3] as bool,
+      isCompleted: fields[3] as bool?,
     );
   }
 
