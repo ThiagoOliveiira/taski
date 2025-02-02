@@ -36,10 +36,10 @@ A arquitetura segue o **MVVM + Clean Architecture**, garantindo separação de c
 ```
 lib/
 ├── core/               # Camada central com classes auxiliares e de erro
-│   ├── error/         # Tratamento de erros e exceções
-│   ├── usecase/       # Interface base para casos de uso
 │   ├── utils/         # Utilitários e constantes globais
 │   ├── theme/         # Configuração do tema
+|   ├── routes/        # Rotas do app com GoRouter
+|   ├── database/      # Configuração do Hive 
 │
 ├── data/               # Camada de dados (Repositórios e Models)
 │   ├── datasources/   # Fonte de dados local (Hive)
@@ -56,15 +56,15 @@ lib/
 │   ├── views/         # Telas do aplicativo
 │   ├── widgets/       # Componentes reutilizáveis
 │
-├── factories/          # Injeção de dependências e criação de objetos
-│
+├── main/factories      # Injeção de dependências e criação de objetos
+│   │── main.dart      # Ponto de entrada do aplicativo
+│  
 ├── routes/             # Configuração de rotas com GoRouter
 │
-├── main.dart           # Ponto de entrada do aplicativo
 ```
 
 ## 🔹 Explicação das Camadas
-- **Core**: Contém configurações globais, tratamento de erros e temas.
+- **Core**: Contém configurações globais, banco de dados, rotas do app e temas.
 - **Data**: Implementa fontes de dados, repositórios e modelos que representam os dados do app.
 - **Domain**: Contém entidades e regras de negócio, além dos casos de uso.
 - **Presentation**: Responsável pela interface do usuário e gerenciamento de estado.
